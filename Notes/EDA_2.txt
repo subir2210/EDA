@@ -1,0 +1,50 @@
+1. Exploratory Data Analysis
+1.1  Categorical Features
+1.2  Numerical Features
+
+2. Data Visualisation
+3. Correlation Matrix
+4. Data Processing
+
+5. Applying machine learning algorithms
+5.1. Logistic Regression
+5.2. Random Forest Classifier
+5.3. Support Vector Machine
+5.4. XGBoost Classifier
+5.5. Artificial Neural Networks (ANNs)
+
+1. EDA
+
+Find patterns in data through data visualization. Reveal hidden secrets of the data through graphs, analysis and charts.
+
+Univariate analysis
+                   Continous variables :  Histograms, boxplots. This gives us understanding about the central tendency and spread
+				   Categorical variable : Bar chart showing frequency in each category
+Bivariate analysis
+				   Continous & Continous : Scatter plots to know how continous variables interact with each other
+                   Categorical & categorical : Stacked column chart to show how the frequencies are spread between two
+                   Categorical variables
+                   Categorical & Continous : Boxplots, Swamplots or even bar charts
+Detect outliers
+Feature engineering
+
+
+Numerical variables with histograms,
+Categorical variables with count plots,
+
+Relationships between numerical variables with scatter plots, joint plots, and pair plots, and
+Relationships between numerical and categorical variables with box-and-whisker plots and complex conditional plots.
+
+===================================================================================================================
+
+Drop Columns\Rows Techniques
+
+1. Drop column if 40% of missing values
+2. Drop column if duplicate value ( unique )
+3. Drop column if zero variance ( Numerical data )
+4. Drop column if it's highly corelated
+5. Drop rows if outliers
+
+
+
+

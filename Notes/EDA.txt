@@ -1,0 +1,42 @@
+https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python#Exploratory-data-analysis-(EDA)
+
+1. UNDERSTANDING THE DATA
+
+df.shape
+df.info()
+
+2. DISTRIBUTION
+
+Numerical data    -> Summary stats,Histogram,PDF
+
+df['SalePrice'].describe()   #  5 point summary; descriptive stat.
+
+plt.figure(figsize=(9, 8))                                                   # Figure size
+sns.distplot(df['SalePrice'],color='g', bins=100, hist_kws={'alpha': 0.4});  # Normal distribution.
+
+df.hist(['YrSold','YearBuilt'],figsize=(20,20))                              # Specific columns
+df.hist(figsize=(20,20)                                                      # All columns
+
+df_num = df.select_dtypes(include=['float64','int64'])                       # Selecting all numerical variables.
+
+Catogorical Data  -> plot,boxplot https://datascienceplus.com/seaborn-categorical-plots-in-python/
+
+Series.plot()
+df.boxplot()
+
+df_cat = df.select_dtypes(include='object')                                  # Selecting all Catogorical variables.
+
+https://www.youtube.com/watch?v=5NcbVYhQJvw&t=1693s
+
+3. DATA CLEANING
+https://www.youtube.com/watch?v=fCMrO_VzeL8&list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y&index=16
+
+df.isnull().sum() or  df.isna().sum()
+df[df.<col_name>.isnull()] or df[df.<col_name>.isna()]
+
+DROP NAN AND UNECESSARY COLUMNS.
+
+df.dropna()
+df.dropna(thresh=(1460*0.30), axis=1) # dropping column having more than 30% missing value; 1460 is row length.
+df.drop(['Id'],axis=1)  			  # dropping column
+

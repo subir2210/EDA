@@ -1,0 +1,28 @@
+kuls.utkarsh1205@gmail.com
+
+Assignment-1 : Design a Stats Model for Hypothesis Designing.
+(a) Model should be able to tackle the Z-Distributions
+(b) Model should be able to tackle the t-Distributions
+(c) Model should be able to tackle the Population Proportions along with the sample mean Analysis.
+
+Print the final outputs in terms of Hypothesis Rejected or Accepted. Make use of flags to find out the Z or T distributions. Similarly use the flags for the Population Proportions.
+
+Assignment : Study & explore the differences between the Variance and Standard Deviation in terms of Analytics & Data Science.
+
+Assignment-1 : 
+
+Design a Stats Model for Hypothesis Designing.
+
+(a) Model should be able to tackle the Z-Distributions
+(b) Model should be able to tackle the t-Distributions
+(c) Model should be able to tackle the Population Proportions along with the sample mean Analysis.
+
+1. Outlier Treatment
+2. Correlation check
+3. Zero Variance Check
+4. Dupe Check
+5. Missing Values
+6. Standardization Data
+
+https://www.kaggle.com/CooperUnion/cardataset/data
+https://www.kaggle.com/ekami66/detailed-exploratory-data-analysis-with-python#Exploratory-data-analysis-(EDA)

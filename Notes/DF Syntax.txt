@@ -1,0 +1,52 @@
+
+pandas drop
+
+https://chrisalbon.com/python/data_wrangling/pandas_dropping_column_and_rows/
+https://stackoverflow.com/questions/37663931/selecting-columns-with-condition-on-pandas-dataframe
+
+
+df.replace()
+df.rename()
+
+Drop
+df.drop()
+df.dropna()
+
+Nan
+df.isna()
+df.isna().sum()
+df.isna().count()
+
+Multi index
+df.groupby()
+df.groupby().size()
+df.set_index() df.sort_index() df.reset_index() -> df.index.name = 'xyz'
+
+df.duplicated()
+
+df.xyz == df['xyz']     							# In case of whitespace always use df['']
+df.index
+df.xyz.index  
+df.columns
+df.xyz.count()
+df.values
+df.xyz.values
+df.xyz.value_counts()
+df.xyz.sort_values()
+df.xyz.unique()
+df.xyz.nunique()
+
+
+
+LOC Example
+df.loc[[0,1],['State','Time']]
+df.loc[0:1,'State':'Time']
+df.loc[0,'Time']
+df.loc[:,'Time']
+df.loc[0,:]
+df.loc[df.City == 'Ithaca',:]  df[df.City == 'Ithaca']
+
+iLOC Example
+df.iloc[0:3,[0,1]]
+df.iloc[:,0:1]
+
